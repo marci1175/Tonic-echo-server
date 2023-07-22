@@ -24,7 +24,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
         println!("{:?}", response);
     }
-    println!("bye bye!");
+    println!("Error occured ,bye bye!");
     std::thread::sleep(Duration::from_secs(10));
     Ok(())
 }
